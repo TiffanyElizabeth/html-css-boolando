@@ -25,3 +25,38 @@ section {
 /*-------------------
     HEADER
 --------------------*/
+header {
+    position: sticky;
+    background-color: #FC6900;
+    max-height: 70px;
+    border-bottom: 1px solid grey;
+}
+
+.header-details {
+    color: white;
+}
+
+header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    max-height: 20px;
+    height: auto;
+}
