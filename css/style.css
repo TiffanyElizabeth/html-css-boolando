@@ -62,6 +62,55 @@ header > .container {
 }
 
 /*-------------------
+    MAIN
+--------------------*/
+.row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.col {
+    width: calc(100% / 3);
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+.discount {
+    background-color: red;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.sostenibilita {
+    background-color: green;
+    position: absolute;
+    padding: 5px 10px;
+    color: white;
+    bottom: 50px;
+}
+
+.s1 {
+    left: 60px;
+}
+
+.heart {
+    position: absolute;
+    padding: 8px 12px;
+    background-color: white;
+    top: 8px;
+    right: 0px;
+}
+
+/*-------------------
     FOOTER
 --------------------*/
 footer {
