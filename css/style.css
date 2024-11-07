@@ -60,3 +60,45 @@ header > .container {
     max-height: 26px;
     height: auto;
 }
+
+/*-------------------
+    FOOTER
+--------------------*/
+footer {
+    background-color: black;
+    max-height: 100px;
+}
+
+.footer-details {
+    color: white;
+}
+
+.footer > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 6px;
+}
+
+.foot-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    padding-bottom: 25px;
+}
+
+.foot-nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 14px;
+    padding-top: 20px; 
+}
