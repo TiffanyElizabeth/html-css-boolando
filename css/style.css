@@ -110,6 +110,15 @@ img {
     right: 0px;
 }
 
+.price {
+    display: flex;
+    gap: 5px
+}
+
+.sale-price {
+    color: red;
+}
+
 /*-------------------
     FOOTER
 --------------------*/
