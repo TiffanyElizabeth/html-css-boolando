@@ -30,6 +30,9 @@ header {
     background-color: #FC6900;
     max-height: 70px;
     border-bottom: 1px solid grey;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
 }
 
 .header-details {
@@ -68,7 +71,7 @@ header > .container {
     margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .col {
@@ -76,38 +79,58 @@ header > .container {
     position: relative;
 }
 
-img {
+.product-img img {
     max-width: 100%;
     max-height: 100%;
- }
+    display: block;
+}
+
+.product-img:hover .img-hover {
+    display: block;
+}
+.product-img:hover .img-original {
+    display: none;
+}
+
+.product-img .img-hover {
+    display: none;
+}
 
 .discount {
     background-color: red;
     position: absolute;
-    bottom: 50px;
+    top: 490px;
     left: 0px;
-    padding: 5px 10px;
+    padding: 5px;
     color: white;
 }
 
 .sostenibilita {
     background-color: green;
     position: absolute;
-    padding: 5px 10px;
+    padding: 5px;
     color: white;
-    bottom: 50px;
+    top: 490px;
 }
 
 .s1 {
-    left: 60px;
+    left: 48px;
 }
 
 .heart {
     position: absolute;
-    padding: 8px 12px;
     background-color: white;
-    top: 8px;
+    top: 10px;
     right: 0px;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.heart:hover{
+    color: red;
 }
 
 .price {
