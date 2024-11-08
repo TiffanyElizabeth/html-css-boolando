@@ -136,12 +136,18 @@ header > .container {
     color: red;
 }
 
+.brand {
+    font-size: 12px;
+}
+
 .price {
     display: flex;
+    font-size: 12px;
     gap: 5px
 }
 
 .sale-price {
+    font-weight: bold;
     color: red;
 }
 
@@ -169,7 +175,7 @@ h1 {
     list-style: none;
     display: flex;
     justify-content: flex-start;
-    gap: 7px;
+    gap: 10px;
     padding-bottom: 25px;
 }
 
@@ -180,6 +186,7 @@ h1 {
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 20px; 
+    padding-bottom: 6px;
 }
